@@ -10,7 +10,7 @@ export default function () {
                 <h2>{discordClient.user?.tag}</h2>
             </center>
 
-            <center className='center'>
+            <center>
                 <div className='card'>Servidores: {discordClient.guilds.cache.size}</div>
                 <div className='card'>Usuários: {discordClient.users.cache.size}</div>
                 <div className='card'>Latência: {discordClient.ws.ping}</div>
